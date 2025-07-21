@@ -1,3 +1,4 @@
+import React from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { MapPin, Phone, Mail, Clock, Facebook, MessageCircle } from "lucide-react";
@@ -152,4 +153,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default React.memo(Contact);

@@ -1,3 +1,4 @@
+import React from "react";
 import { Users, Home, Building2, MapPin } from "lucide-react";
 
 const Statistics = () => {
@@ -60,4 +61,4 @@ const Statistics = () => {
   );
 };
 
-export default Statistics;
+export default React.memo(Statistics);

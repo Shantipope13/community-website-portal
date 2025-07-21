@@ -1,3 +1,4 @@
+import React from "react";
 import { Button } from "@/components/ui/button";
 import { MapPin, Phone, Mail, Facebook, MessageCircle, Heart } from "lucide-react";
 
@@ -142,4 +143,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default React.memo(Footer);

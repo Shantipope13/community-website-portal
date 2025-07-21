@@ -1,3 +1,4 @@
+import React from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { 
@@ -99,4 +100,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default React.memo(Services);

@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone, Clock, MapPin } from "lucide-react";
@@ -125,4 +126,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default React.memo(Header);

@@ -1,3 +1,4 @@
+import React from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Users, Building2, FileText } from "lucide-react";
 import heroImage from "@/assets/barangay-hero.jpg";
@@ -52,4 +53,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default React.memo(Hero);
